@@ -47,7 +47,7 @@ public class Square implements Shape {
 	    return 0;
 	}
 	
-	public void Draw(){
+	public void draw(){
 		System.out.println("Draw:");
 		for (int i = 1; i <= area; i++) 
         { 

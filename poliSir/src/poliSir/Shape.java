@@ -1,3 +1,4 @@
+package poliSir;
 
 public interface Shape {
 	void draw();

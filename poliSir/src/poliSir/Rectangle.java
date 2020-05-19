@@ -1,3 +1,5 @@
+package poliSir;
+
 
 public class Rectangle implements Shape{
 	

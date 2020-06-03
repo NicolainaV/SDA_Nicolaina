@@ -1,5 +1,9 @@
 package cautareBinara;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a485727f53b2f29a27ac2904023605240070759c
 import java.util.Arrays;
 import java.util.Scanner;
 

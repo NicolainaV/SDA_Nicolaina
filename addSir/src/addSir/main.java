@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class main {
+<<<<<<< HEAD
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -44,4 +45,42 @@ public class main {
 			System.out.println("Pozitia introdusa depaseste pozitia maxima din sir");
 	}
 
+=======
+	public static void main(String[] args) {
+		
+		int i;
+		int[] sir = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 16};
+		System.out.println(Arrays.toString(sir));
+		Scanner scanner =new Scanner(System.in);
+		
+		System.out.println("introdu pozitia:");
+		int p= scanner.nextInt();
+		while (p<0 || p>sir.length)
+		{
+			System.out.println("Pozitia nu este corecta, introdu alta pozitie:");
+			p= scanner.nextInt();
+		}
+		System.out.println("Pozitia este corecta.");
+		
+		ArrayList<String> nou=new ArrayList<String>();
+		String nul= "null";
+		
+		for (i=0; i<sir.length; i++)
+		{		
+				if (i<p)
+					nou.add(sir[i]+"");
+				
+				if (i==p)
+				{	
+					sir[i]=nr;
+					nou.add(sir[i]+"");
+				}
+				if (i==sir.length-1)
+					nou.add(nul);
+		}
+		
+		System.out.println(nou);
+		
+	}
+>>>>>>> a485727f53b2f29a27ac2904023605240070759c
 }

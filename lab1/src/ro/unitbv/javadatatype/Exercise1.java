@@ -39,12 +39,12 @@ public class Exercise1 {
 		if (nr1>nr2)
 		{
 			System.out.println("Max:"+nr1);
+			System.out.println("Distanta este:"+(nr1-nr2));
 		}else
 			{
 				System.out.println("Max:"+nr2);
+				System.out.println("Distanta este:"+(nr2-nr1));
 			}
-		
-		
 		
 	}
 
